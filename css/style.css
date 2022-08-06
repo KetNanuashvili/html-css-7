@@ -21,7 +21,7 @@
 .section1-div{
     width: 1200px;
     display: flex;
-    margin: 150px auto 0;
+    margin: 150px auto 300px;
     justify-content: space-between;
    
 }
@@ -58,6 +58,10 @@
     align-items: center;
     
 }
+/* wave div hover*/
+.wave-div:hover{
+    background-color: #0000b3;
+}
 .wave-text{
     font-size: 19px;
     color: #FFFFFF;
@@ -70,3 +74,29 @@
 }
 
 /*second section*/
+
+/*first div*/
+.first-block2{
+    margin: 100px auto 50px;
+    width: 530px;
+    height: 140px;
+    text-align: center;
+}
+.h5-service{
+    font-size: 16px;
+    color: #3D37F1;
+    font-family: 'Lato';
+}
+.h3-title{
+    font-size: 28px;
+    color: #534D4D;
+    font-family: 'Roboto';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.describe-paragrap{
+    font-size: 15px;
+    color: #747474;
+    font-family: 'Roboto';
+
+}
